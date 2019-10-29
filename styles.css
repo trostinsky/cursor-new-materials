@@ -97,3 +97,21 @@ ul li:before{
     font-weight: 600;
     max-width: 750px;
 }
+
+.question-wrapper{
+    background-color: #c0fcff;
+    padding: 20px;
+}
+
+.question{
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+
+.answer{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    color: #000;
+}
