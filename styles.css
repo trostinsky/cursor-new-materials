@@ -114,3 +114,7 @@ ul li:before{
     font-style: italic;
     color: #000;
 }
+
+.codepen-wrapper{
+    margin-bottom: 30px;
+}
