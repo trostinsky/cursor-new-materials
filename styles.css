@@ -5,12 +5,19 @@
 
 html, body{
     background-color: #fafafa;
-    font-family: "Roboto";
+    font-family: "Helvetica";
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.05px;
 }
 body{
     padding: 20px;
+}
+
+p {
+    width: 100%;
+    max-width: 800px;
+    padding-right: 30px;
 }
 
 h1{
@@ -36,8 +43,14 @@ img{
 }
 
 .subsection{
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border: 5px solid #ffdc91;
+    max-width: 800px;
 }
 h3{
     font-size: 18px;
@@ -117,4 +130,16 @@ ul li:before{
 
 .codepen-wrapper{
     margin-bottom: 30px;
+}
+code{
+    background-color: #f3f3f3;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.multiple-images-row{
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    justify-content: flex-start;
 }
